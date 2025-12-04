@@ -1,0 +1,38 @@
+name: todo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #database
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0+4
+  path: ^1.8.3
+
+  # Date & Time Formatting
+  intl: ^0.18.1
+  intl_utils: ^2.8.5 
+  
+  # UI Components
+  google_fonts: ^6.1.0
+  flutter_slidable: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/TodoApp_icon.png"
+
+flutter:
+  uses-material-design: true
